@@ -1,4 +1,4 @@
-# NFL-Webscraper
+# NFL-Webscrapers
 
 List of Scrapers to Choose From:
   NFL Team / Score scraper - Webscrapes all NFL teams names and gives their scores for the week.
