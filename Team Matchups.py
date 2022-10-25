@@ -26,11 +26,9 @@ iterator = 1
 teamDictionary = {}
 for team in team_list:
     print(iterator, '. ', team)
-    teamDictionary.update({iterator: team})
+    teamDictionary.update({iterator: team.lower()})
     iterator = iterator + 1
 
 print("Team to get schedule from is: ")
 inTeam = input().lower()
-
-
 
