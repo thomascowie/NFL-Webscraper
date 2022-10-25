@@ -23,8 +23,14 @@ for teamName in teamNames:
 # Print Menu
 print("Pick a team to get the schedule for.")
 iterator = 1
+teamDictionary = {}
 for team in team_list:
     print(iterator, '. ', team)
+    teamDictionary.update({iterator: team})
     iterator = iterator + 1
 
-input("Team to get schedule from is: ")  # This needs fixing
+print("Team to get schedule from is: ")
+inTeam = input().lower()
+
+
+
